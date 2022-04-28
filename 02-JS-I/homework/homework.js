@@ -29,6 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   return  str ; 
+
 }
 
 function suma(x, y) {
@@ -36,24 +37,28 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   return x + y ;
+
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   return x - y ;
+
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   return x * y ;
+
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   return x / y ;
+
 }
 
 function sonIguales(x, y) {
@@ -66,6 +71,7 @@ return true ;
 else {
   return  false ; 
  }
+
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -73,7 +79,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return str1 . length === str2 . length ;
-  
+
+
 }
 
 function menosQueNoventa(num) {
@@ -86,6 +93,7 @@ function menosQueNoventa(num) {
   else {
     return false;
   }
+
 }
 
 function mayorQueCincuenta(num) {
@@ -93,12 +101,14 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return 70 > 50 ;
+
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   return x / y ;
+
 }
 
 function esPar(num) {
@@ -112,6 +122,7 @@ else  {
   
   return false ;
   }
+
 }
 
 function esImpar(num) {
@@ -126,31 +137,35 @@ function esImpar(num) {
       return false ;
       }
     }
+
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
-  return math . pow ( 10, 2) ;
+  return Math.pow(20, 2);
+
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+  return 8 * 8 * 4;
+
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+  return Math.pow(4, 8);
+
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+  Math.round(20.49)
   
 }
 
